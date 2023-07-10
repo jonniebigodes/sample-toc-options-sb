@@ -40,15 +40,6 @@ const preview = {
       /* toc: {
         title: "Table of Contents",
         headingSelector: "h1, h2, h3",
-      }, */
-      /* toc: {
-        title: "Table of Contents",
-        unsafeTocbotOptions: () =>
-          tocbot.init({
-            headingSelector: "h2",
-            includeTitleTags: true,
-          }),
-      }, */
       // If React component, file needs to be renamed to .jsx for Vite to work and unable to get it to work
       /*  toc: {
         title: () => <p>Title written as a React element</p>,
