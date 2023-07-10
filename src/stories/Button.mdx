@@ -1,0 +1,33 @@
+import { Canvas, Controls, Meta, Story } from "@storybook/blocks";
+
+import * as ButtonStories from "./Button.stories";
+
+<Meta of={ButtonStories} />
+
+# Button
+
+Button is a clickable interactive element that triggers a response. You can place text and icons inside of a button. Buttons are often used for form submissions and to toggle elements into view
+
+<Canvas>
+  <Story of={ButtonStories.Primary} />
+</Canvas>
+
+## Available properties
+
+<Controls of={ButtonStories.Primary} />
+
+## Additional Variants
+
+To help you get started, here are a few additional variants you can use to customize your button.
+
+### Secondary
+
+<Story of={ButtonStories.Secondary} />
+
+### Large
+
+<Story of={ButtonStories.Large} />
+
+### Small
+
+<Story of={ButtonStories.Small} />
