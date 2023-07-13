@@ -1,35 +1,14 @@
-/* import {
-  Title,
-  Subtitle,
-  Description,
-  Primary,
-  Controls,
-  Stories,
-  DocsContainer,
-} from "@storybook/blocks";
-
-import CustomTableOfContents from "../src/components/customToc";
-
- const ExampleContainer = ({ children, ...props }) => {
-  return (
-    <>
-      <main>
-        <h1>Documentation page</h1>
-        <DocsContainer {...props}>{children}</DocsContainer>
-      </main>
-      <aside>
-        <CustomTableOfContents />
-      </aside>
-    </>
-  );
-}; */
-import tocbot from "tocbot";
-
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   parameters: {
     docs: {
       toc: true, // should be used as default
+      /*  toc: {
+        title: "Table of Contents",
+        headingSelector: "h1, h2, h3",
+        ignoreSelector: "#primary",
+      },
+ */
       /*toc: {
         ignoreSelector: "#primary",
         title: "Table of Contents",
